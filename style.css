@@ -60,5 +60,48 @@ header{
     margin-bottom: 30px;
 }
 
+/* Main Related Styles */
+main{
+    padding: 100px 150px;
+}
+
+/* Previous Year Section Styles */
+
+#previous-year{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.section-title{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 800;
+    word-spacing: 5px;
+    padding: 20px 0px;
+}
+
+.section-description{
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(142, 138, 138);
+    padding: 20px 0px;
+}
+
+#section-text ul{
+    list-style: none;
+}
+
+#section-text ul>li{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+#section-text ul>li>i{
+    color: rgb(71, 186, 71);
+    font-size: 20px;
+}
+
 
 
