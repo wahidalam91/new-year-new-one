@@ -125,3 +125,28 @@ main{
     color: rgb(142, 138, 138);
 }
 
+
+/* Be Positive related Styles */
+#positive-section{
+    background-image: url(./images/watch.png), url(./images/gradient1.png) ;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+
+    color: white;
+    padding: 30px 40px;
+    border-radius: 8px
+}
+
+
+.positive-text{
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#positive-section .btn-primary{
+    margin: 20px 0px;
+}
+
