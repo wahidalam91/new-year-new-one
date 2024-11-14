@@ -150,3 +150,81 @@ main{
     margin: 20px 0px;
 }
 
+footer{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: wheat;
+    text-align: left;
+}
+
+.footer-text{
+    width: 75%;
+}
+
+.footer-title{
+    font-size: 45px;
+    line-height: 45px;
+    word-spacing: 9px;
+    margin-bottom: 20px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-icon li{
+    list-style: none;
+}
+
+.footer-icon li>a{
+    text-decoration: none;
+}
+
+.footer-icon li>a>img{
+    width: 25px;
+    height: 25px;
+}
+
+.title-text{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.form input[type="email"]{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+}
+.form input[type="submit"]{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color:wheat;
+    font-size: 18px;
+    font-weight: 700;
+    color: #005FAC;
+
+    margin-top: 20px;
+}
+
+.form input[type="submit"]:hover{
+    background-color: #005FAC;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    margin-top: 20px;
+}
+
+
+
+
+
